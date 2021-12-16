@@ -74,18 +74,18 @@ class Register extends Component {
 
   render() {
     return (
-      <section className="section auth">
-        <div className="container">
+      <section >
+        <div >
           <h1>Register</h1>
         
 
           <form >
-            <div className="field">
-              <p className="control">
+            <div >
+              <p >
                 <input 
-                  className="input" 
+                  
                   type="text"
-                  id="username"
+                 
                  
                   placeholder="Enter username"
                   // value={this.state.username}
@@ -93,60 +93,53 @@ class Register extends Component {
                 />
               </p>
             </div>
-            <div className="field">
-              <p className="control has-icons-left has-icons-right">
+            <div >
+              <p >
                 <input 
-                  className="input" 
+              
                   type="email"
-                  id="email"
-                  aria-describedby="emailHelp"
+                
                   placeholder="Enter email"
                   // value={this.state.email}
                   // onChange={this.onInputChange}
                 />
-                <span className="icon is-small is-left">
-                  <i className="fas fa-envelope"></i>
-                </span>
+               
               </p>
             </div>
-            <div className="field">
-              <p className="control has-icons-left">
+            <div >
+              <p >
                 <input 
-                  className="input" 
+                  
                   type="password"
-                  id="password"
+                 
                   placeholder="Password"
                   // value={this.state.password}
                   // onChange={this.onInputChange}
                 />
-                <span className="icon is-small is-left">
-                  <i className="fas fa-lock"></i>
-                </span>
+                
               </p>
             </div>
-            <div className="field">
-              <p className="control has-icons-left">
+            <div >
+              <p >
                 <input 
-                  className="input" 
+               
                   type="password"
-                  id="confirmpassword"
+                
                   placeholder="Confirm password"
                   // value={this.state.confirmpassword}
                   // onChange={this.onInputChange}
                 />
-                <span className="icon is-small is-left">
-                  <i className="fas fa-lock"></i>
-                </span>
+               
               </p>
             </div>
-            <div className="field">
-              <p className="control">
+            <div >
+              <p >
                 <a href="/forgotpassword">Forgot password?</a>
               </p>
             </div>
-            <div className="field">
-              <p className="control">
-                <button className="button is-success">
+            <div>
+              <p >
+                <button >
                   Register
                 </button>
               </p>
