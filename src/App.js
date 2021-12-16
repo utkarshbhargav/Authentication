@@ -1,5 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
+=======
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+       hi there this is testing
+      </div>
+    )
+  }
+}
+>>>>>>> dd075dcfaf67b6eeb462eca9ff1013197cf43d17
 
 function App() {
   return (
