@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
-import React, { Component } from 'react';
+import React from 'react';
 // import FormErrors from "../FormErrors";
 //import Validate from "../utility/FormValidation";
 //import {Auth} from "aws-amplify";
 
 
-class Register extends Component {
+const Register =()=> {
   // state = {
   //   username: "",
   //   email: "",
@@ -72,7 +72,7 @@ class Register extends Component {
   //   document.getElementById(event.target.id).classList.remove("is-danger");
   // }
 
-  render() {
+  
     return (
       <section >
         <div >
@@ -151,6 +151,6 @@ class Register extends Component {
       </section>
     );
   }
-}
+
 
 export default Register;
