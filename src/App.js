@@ -7,7 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-       hi there
+       hi there this is testing
       </div>
     )
   }
