@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import FormErrors from "../FormErrors";
+// import FormErrors from "../FormErrors";
 //import Validate from "../utility/FormValidation";
 //import {Auth} from "aws-amplify";
 
