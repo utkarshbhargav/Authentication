@@ -77,7 +77,7 @@ class Register extends Component {
       <section className="section auth">
         <div className="container">
           <h1>Register</h1>
-          <FormErrors  />
+        
 
           <form >
             <div className="field">
